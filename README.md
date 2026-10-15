@@ -134,9 +134,10 @@ says which analysis each governs.
 
 ## License
 
-The code is released under the MIT License (`LICENSE`). Part of `src/` builds on code by Mengyuan Ma, included with his
-permission (`NOTICE.md`). The stored predictions and results are derived from DeepSense 6G Scenario 9, whose terms of
-use apply to the data.
+The code is released under the MIT License (`LICENSE`). Part of `src/` builds on
+<https://github.com/WillysMa/Sensing-Assisted-Long-Term-Beam-Tracking>, the code of M. Ma et al., "Knowledge
+Distillation for Sensing-Assisted Long-Term Beam Tracking in mmWave Communications." The stored predictions and results
+are derived from DeepSense 6G Scenario 9, whose terms of use apply to the data.
 
 ## Citation
 
