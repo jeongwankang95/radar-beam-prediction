@@ -1,0 +1,60 @@
+{
+ "corrected": {
+  "seeds": 10,
+  "windows": 1259,
+  "slots": 8813,
+  "unscored_slots": 0,
+  "predictions_per_arm": 88130,
+  "penalized_RA": 0,
+  "penalized_RD": 9,
+  "penalized_RD_per_seed": [
+   0,
+   0,
+   4,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   5
+  ],
+  "window_slots_involved": 5,
+  "dL7_reported": 0.20197467523370216,
+  "dL7_penalty0": 0.20810198715926664,
+  "dL7_common_mask": 0.2079746915742034,
+  "ci_reported": [
+   0.08263734843904981,
+   0.38569013266745655
+  ],
+  "ci_penalty0": [
+   0.09273460545698456,
+   0.38780971504204903
+  ]
+ },
+ "pre_correction": {
+  "seeds": 10,
+  "windows": 1259,
+  "slots": 8813,
+  "unscored_slots": 0,
+  "predictions_per_arm": 88130,
+  "penalized_RA": 1,
+  "penalized_RD": 5,
+  "penalized_RD_per_seed": [
+   0,
+   0,
+   5,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "window_slots_involved": 6,
+  "dL7_reported": 0.142362770585457,
+  "dL7_penalty0": 0.1450860203301523,
+  "dL7_common_mask": 0.1450004730211541
+ }
+}

@@ -1,0 +1,14 @@
+# Versions of the environment the paper's CUDA runs were trained in (Python 3.12.3, CUDA 12.4 build of PyTorch); the
+# earlier runs on Apple MPS used another PyTorch build.
+# The analysis scripts in analysis/ and figures/ need only numpy, scipy and pandas.
+torch==2.6.0
+torchvision==0.21.0
+numpy==2.4.4
+scipy==1.18.0
+pandas==3.0.5
+scikit-image==0.26.0
+pillow==12.2.0
+matplotlib==3.11.1
+tqdm==4.70.0
+thop==0.1.1.post2209072238
+pytorch-model-summary==0.1.2

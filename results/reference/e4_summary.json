@@ -1,0 +1,81 @@
+{
+  "P1_centroid_reader": {
+    "slope_beam_per_bin": 3.8998468486588043,
+    "intercept": -216.3533126928997,
+    "test_rms_resid_beams": 11.73500034619923,
+    "test_r": 0.8451046472530257,
+    "train_r": 0.888246168680251,
+    "resid_near_broadside(|b-32|<8)": 10.716574738510625,
+    "resid_mid(8..20)": 7.055503792417253,
+    "resid_edge(>=20)": 14.069942608694863
+  },
+  "angle_peak_reader": {
+    "slope": 1.523375001551199,
+    "intercept": -22.695723923909913,
+    "test_rms_resid_beams": 6.791400448900029,
+    "test_r": 0.9473320971234402,
+    "train_r": 0.9640606466267228
+  },
+  "argmax_row_reader": {
+    "slope": 3.401133785404607,
+    "test_rms_resid_beams": 9.61148896027027,
+    "test_r": 0.8939147461598795
+  },
+  "P3_joint_reader": {
+    "coef": [
+      1.4660196334683584,
+      0.17423682304630467,
+      -31.738809106079962
+    ],
+    "test_rms_resid_beams": 6.649280643161786
+  },
+  "P2_speed_scaling": {
+    "n_passes": 136,
+    "same_sign": true,
+    "k_bins_per_beam_per_mps": 0.05523242965928261,
+    "R2_through_origin": 0.0769175818522243,
+    "corr_slope_speed": 0.41573279911286903,
+    "median_within_pass_r": 0.9393800494923814,
+    "speed_mps_min_med_max": [
+      2.43858376111163,
+      3.775414284640533,
+      5.38374452009492
+    ],
+    "implied_dsin_per_beam_median": 0.014187443952981622,
+    "implied_dsin_iqr": [
+      0.01277690363346431,
+      0.015154877275368538
+    ],
+    "within_pass_speed_cv_median": 0.12263277370120668
+  },
+  "grid_check": {
+    "single_ray_fit": {
+      "sin_uniform_pm90 (paper)": {
+        "median_rel_resid": 0.40532168494065723,
+        "mean_rel_resid": 0.45472390883852687
+      },
+      "sin_uniform_pm45": {
+        "median_rel_resid": 0.27787830087022236,
+        "mean_rel_resid": 0.29544608089267566
+      },
+      "angle_uniform_pm45": {
+        "median_rel_resid": 0.2770036496760073,
+        "mean_rel_resid": 0.2937612454894099
+      },
+      "sin_uniform_pm37(profile-reader calib)": {
+        "median_rel_resid": 0.24226146334411125,
+        "mean_rel_resid": 0.2518734661889805
+      }
+    },
+    "measured_3dB_width_beams_median": 6.754472331143248,
+    "measured_3dB_width_beams_mean": 10.026606165064218,
+    "model_3dB_width_beams": {
+      "sin_uniform_pm90 (paper)": 3.4842453714721984,
+      "sin_uniform_pm45": 4.958770352056661,
+      "angle_uniform_pm45": 4.479669809801091,
+      "sin_uniform_pm37(profile-reader calib)": 5.821151251156095
+    },
+    "profile_reader_slope_radar_bins_per_beam": 0.6564371864982261,
+    "implied_dsin_from_profile_reader": 0.04760546879847497
+  }
+}
